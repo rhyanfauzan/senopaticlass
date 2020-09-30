@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Quicksand', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.jumbotronblue {
+    background-color: #6C63FF;
+}
+.lighthr{
+    color: #fff;
+    background-color: #fff;
+}
+
+.judul1 {
+    color: #fff;
+    font-weight: 500;
+    line-height: 50px;
+}
+.subjudul1 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.25em;
+}
+.judul2 {
+    color: #6C63FF;
+    font-weight: 500;
+    line-height: 50px;
+}
+.subjudul2 {
+    color: #6C63FF;
+    font-weight: 400;
+    font-size: 1.25em;
+}
+.judul3 {
+    color: #fff;
+    font-weight: 500;
+    line-height: 50px;
+}
+.judul4 {
+    color: #fff;
+    font-weight: 500;
+}
+.subjudul4 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.1em;
+}
+
+footer {
+    background-color: #2F2E41;
+}
+footer p {
+    color: #fff;
+}
+.footertext {
+    color: #fff;
+    line-height: 20px;
+    margin: 0;
+}
+.sosmedicon {
+    margin: auto 5px;
+    margin-bottom: 10px;
+    width: 30px;
+}
+.colcenter {
+    margin: 30px auto;
+}
+.spaceimg {
+    padding: 20px;
+    max-height: 150px;
+}
+.margiin{
+    margin: 0;
+}
+.paddiing{
+    padding: 0;
+}
+.biruteks{
+    color: #252525;
+    font-weight: 600;
+}
