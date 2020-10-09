@@ -3,13 +3,13 @@
     <head>
         <!-- Required meta tags -->
         <meta charset="utf-8"/>
-        <meta
-        name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+        <link
+        rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-        <title>Senopati</title>
+        <title>Senopati | Admin Dashboard</title>
         <link rel="stylesheet" href="style/main.css">
     </head>
     <body>
@@ -57,97 +57,42 @@
             </nav>
         </div>
 
-        <div class="container">
-            <div class="row mt-5 container">
-                <h4>Belajar UI UX Dengan Mudah</h4>
-            </div>
-            <div class="row mt-5">
-                <div class="col text-center">
-                    <img src="assets/img/uiux.svg" width="500" class="img-fluid">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col">
+                    <h2 class="mt-3">Tambah Materi Baru</h2>
                 </div>
-            </div>
-            <div class="listvideo mt-5">
-                <div class="card">
-                    <div class="card-body">
-                    <div class="col text-right">
-                        <a href="tambahmateriAdminside.html"><button type="button" class="btn btn-primary btn-md">Tambah Materi</button></a>
-                    </div>
-                        <div class="row">
-                            <div class="col">
-                                <div class="row mt-2">
-                                    <div class="col">
-                                        <img src="assets/img/thumb.svg" width="100">
-                                    </div>
-                                    <div class="col">
-                                        <a href="detailmateriAdminside.html"><h5>01 Persiapan Materi</h5></a>
-                                        <p>04:50</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-7"></div>
-                        </div>
-                        <div class="row mt-2">
-                            <div class="col">
-                                <div class="row">
-                                    <div class="col">
-                                        <img src="assets/img/thumb.svg" width="100">
-                                    </div>
-                                    <div class="col">
-                                        <a href="detailmateriAdminside.html"><h5>02 Install Adobe XD</h5></a>
-                                        <p>04:50</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-7"></div>
-                        </div>
-                        <div class="row mt-2">
-                            <div class="col">
-                                <div class="row">
-                                    <div class="col">
-                                        <img src="assets/img/thumb.svg" width="100">
-                                    </div>
-                                    <div class="col">
-                                        <a href="detailmateriAdminside.html"><h5>03 Membuat Sketch</h5></a>
-                                        <p>06:12</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-7"></div>
-                        </div>
-                    </div>
-                  </div>
             </div>
         </div>
 
         <div class="container">
-            <div
-                class="row justify-content-sm-center mt-5">
-                <!-- pagination -->
-                <nav aria-label="...">
-                    <ul class="pagination mb-5">
-                        <li class="page-item">
-                            <a class="page-link" href="#" tabindex="-1">Previous</a>
-                        </li>
-                        <li class="page-item">
-                            <a class="page-link" href="#">1</a>
-                        </li>
-                        <li class="page-item" aria-current="page">
-                            <a class="page-link" href="#">2
-                                <span class="sr-only">(current)</span>
-                            </a>
-                        </li>
-                        <li class="page-item">
-                            <a class="page-link" href="#">3</a>
-                        </li>
-                        <li class="page-item">
-                            <a class="page-link" href="#">Next</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
+            <form>
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">Nama Materi</label>
+                  <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="instalasi tools">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Deskripsi</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlFile1">Upload Video</label>
+                  <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlFile1">Upload Dokumen</label>
+                  <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                </div>
+            </form>
+            <br>
+            <a href="lihatkelasAdminside.html"><button type="button" class="btn btn-primary btn-md">Simpan</button></a>
+            <a href="lihatkelasAdminside.html"><button type="button" class="btn btn-secondary btn-md">Batal</button></a>
         </div>
+
+        <br><br><br><br>
+
         <!-- footer -->
-        <footer>
+        <footer class="mt-5">
             <div class="container">
                 <div class="row">
                     <div class="col-md mt-4 mb-2">
